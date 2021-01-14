@@ -1,21 +1,27 @@
 /* START BODY */
 body {
-  background-color: rgb(56, 196, 206);
+  /* background-color: rgb(56, 196, 206); */
+  background-image: linear-gradient(45deg, rgb(56, 196, 206), rgb(98, 99, 187));
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.8vh;
   text-align: center;
 }
 .button {
-  background-color: forestgreen;
-  border: forestgreen;
+  background-color: rgb(15, 105, 60);
+  border: rgb(15, 105, 60);
   color: white;
   font-size: 2vh;
+  border-radius: 5%;
 }
 .button:hover {
   background-color: rgb(24, 97, 24);
 }
 .link {
   text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: yellowgreen;
 }
 /* END BODY */
 /* START NAV */
@@ -61,6 +67,9 @@ nav {
   padding-top: 2em;
   height: 75vh;
 }
+#welcome img {
+  height: 50vh;
+}
 /* END WELCOME */
 /* START LINKS */
 #links {
@@ -69,7 +78,6 @@ nav {
 .container {
   align-self: center;
   display: flex;
-  width: 20vw;
   background-color: none !important;
   font-size: 300%;
   align-items: center;
@@ -80,5 +88,21 @@ nav {
   margin-left: 6vw;
   margin-right: 6vw;
 }
-
 /* END LINKS */
+/* START CONTACTS */
+#contacts {
+  display: flex;
+  align-items: baseline;
+}
+#contacts img {
+  height: 2.5vh;
+  position: relative;
+  top: 0.5vh;
+}
+#contacts a {
+  align-items: center;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  background-color: none !important;
+}
+/* END CONTACTS */
