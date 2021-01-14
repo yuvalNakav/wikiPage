@@ -1,0 +1,38 @@
+/* START NAV */
+h2 {
+  color: rgb(50, 57, 65);
+  font-size: 25px;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+nav {
+  background-color: rgb(13, 20, 122);
+  color: floralwhite;
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  padding: 0em;
+  width: 100%;
+}
+
+#navbar li {
+  padding: none;
+  display: inline;
+  float: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* END NAV */
