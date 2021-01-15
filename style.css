@@ -1,3 +1,10 @@
+/* START VAR */
+:root{
+  --hoverback: rgb(24, 97, 24);
+  --background:rgb(69, 138, 138);
+  --hover: rgb(82, 114, 17);
+}
+/* END VAR */
 /* START BODY */
 body {
   /* background-color: rgb(56, 196, 206); */
@@ -6,38 +13,35 @@ body {
   font-size: 1.8vh;
 }
 .button {
-  background-color: rgb(15, 105, 60);
-  border: rgb(15, 105, 60);
+  background-color: var(--background);
+  border:  var(--background);
   color: white;
   font-size: 2vh;
   border-radius: 5%;
 }
 .button:hover {
-  background-color: rgb(24, 97, 24);
+  background-color: var(--hoverback);
 }
 .link {
   text-decoration: none;
   color: white;
 }
 .link:hover {
-  color: yellowgreen;
+  color: var(--hover);
 }
 H1 {
   text-align: center;
 }
-
-}
-/* END BODY */
-/* START NAV */
 h2 {
   color: rgb(50, 57, 65);
   font-size: 25px;
   font-family: cursive;
   font-style: oblique;
 }
-
+/* END BODY */
+/* START NAV */
 nav {
-  background-color: rgb(69, 138, 138);
+  background-color: var(--background);
   color: floralwhite;
   position: fixed;
   top: 0px;
