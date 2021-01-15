@@ -82,9 +82,15 @@ nav {
   font-size: 300%;
   align-items: center;
 }
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 #links img {
   width: 20vw;
-  float: left;
+
   margin-left: 6vw;
   margin-right: 6vw;
 }
