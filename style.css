@@ -181,7 +181,13 @@ nav {
   text-align: center;
 }
 /* END FIRST PARAGRAPH */
-
-/* for tomorrow:
-content pages needs content!
-design content pages */
+/* START TABLE */
+#table td,
+#table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#table {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* END TABLE */
