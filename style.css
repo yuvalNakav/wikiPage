@@ -73,6 +73,9 @@ nav {
   margin: 0;
   padding: 0;
 }
+.active{
+  background-color: var(--hoverback);
+}
 /* END NAV */
 /* START WELCOME */
 #welcome img {
